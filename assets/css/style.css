@@ -98,10 +98,18 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: start;
-    width : 150px;
+    width : 170px;
     height: 25px;
     row-gap:5px;
 }
+.headbox a {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    row-gap: 0;
+}
+.headbox p {text-indent: 10px;}
+    
 .box {
     display:flex;
     flex-direction: row;
