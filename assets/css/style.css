@@ -86,7 +86,7 @@ header {
     flex-direction:row;
     column-gap: 5px;
     width:900px; 
-    height: 20px;
+    height: 25px;
     align-items: center;
     justify-content: center;
     padding-left : 40px;
@@ -109,6 +109,14 @@ header {
     justify-content: start;
     width : 250px;
 }
+.box-language {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width : 270px;
+}
+
 .left_icon { 
     width : 15px;
     height: 15px;
@@ -164,19 +172,35 @@ h2 {
     display: flex;
     flex-direction: row;
 }
+.line-language {
+    display: flex;
+    flex-direction: row;
+}
+
 .subject {
-    width:100px;
+    width:93px;
 }
 #main_left .line {
-    width: 150px;
+    width: 250px;
     padding-top: 10px;
 }
+#main_left .line-language {
+    width: 270px;
+    padding-top: 10px;
+}
+
 #main_left li {
     padding-top: 10px;
 }
 
 .ranking_stars {
-    width: 143px;
+    width: 135px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.language-right {
+    width: 140px;
     display: flex;
     flex-direction: row;
     justify-content: right;
