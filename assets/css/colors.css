@@ -1,0 +1,9 @@
+/* par exemple on peut définir les couleur du corporate identity*/
+:root 
+{
+--blue: rgb(23,171,179);
+--light_grey: rgb(245,245,245);
+--black_font: rgb(51,51,51)
+--dark_grey: rgb(227,227,227);
+--white:rgb(255,255,255);
+}
